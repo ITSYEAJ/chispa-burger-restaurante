@@ -1,9 +1,3 @@
-# Chispa Burger
-
-Sistema web de pedidos en línea para un restaurante de comida rápida. Incluye un sitio para clientes y un panel de administración con pantalla de cocina, inventario y reglas automáticas de operación.
-
-Está hecho con HTML, CSS, JavaScript sin frameworks y PHP. Los datos se guardan en archivos JSON, así que no necesita base de datos.
-
 ## Funcionalidades
 
 ### Sitio para clientes (`public/`)
