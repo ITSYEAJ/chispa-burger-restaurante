@@ -1,0 +1,5090 @@
+[
+    {
+        "numero": "CH-1001",
+        "codigo": "F2394F",
+        "fecha": "2026-09-19T11:31:28-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T11:45",
+        "programado": false,
+        "listo_estimado": "2026-09-19T11:43:28-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T11:31:28-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T11:34:28-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T11:42:28-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T11:47:28-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1002",
+        "codigo": "B0F978",
+        "fecha": "2026-09-19T12:17:24-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T12:45",
+        "programado": false,
+        "listo_estimado": "2026-09-19T12:30:24-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T12:17:24-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T12:20:24-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T12:29:24-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T12:34:24-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1003",
+        "codigo": "E6002E",
+        "fecha": "2026-09-19T12:58:55-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-19T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-19T13:12:55-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T12:58:55-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T13:01:55-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T13:11:55-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T13:16:55-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1004",
+        "codigo": "88958F",
+        "fecha": "2026-09-19T13:39:54-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-19T13:54:54-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T13:39:54-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T13:42:54-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T13:53:54-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T13:58:54-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1005",
+        "codigo": "7C7ADC",
+        "fecha": "2026-09-19T14:17:30-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T14:45",
+        "programado": false,
+        "listo_estimado": "2026-09-19T14:33:30-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T14:17:30-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-19T14:19:30-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1006",
+        "codigo": "A5A2C8",
+        "fecha": "2026-09-19T14:50:06-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-19T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-19T15:07:06-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T14:50:06-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T14:53:06-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T15:06:06-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T15:11:06-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1007",
+        "codigo": "085C88",
+        "fecha": "2026-09-19T15:35:39-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T16:00",
+        "programado": false,
+        "listo_estimado": "2026-09-19T15:47:39-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1444",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 0,
+        "total": 11,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T15:35:39-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T15:38:39-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T15:46:39-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T15:51:39-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1008",
+        "codigo": "D4BBEB",
+        "fecha": "2026-09-19T16:15:02-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-19T16:28:02-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1481",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T16:15:02-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T16:18:02-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T16:27:02-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T16:32:02-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1009",
+        "codigo": "E20609",
+        "fecha": "2026-09-19T16:51:55-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-19T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-19T17:05:55-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1518",
+            "direccion": "Calle Pino 24"
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 2.5,
+        "total": 18.4,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T16:51:55-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T16:54:55-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T17:04:55-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T17:09:55-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1010",
+        "codigo": "D985D5",
+        "fecha": "2026-09-19T17:36:29-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T18:00",
+        "programado": false,
+        "listo_estimado": "2026-09-19T17:51:29-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1555",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 0,
+        "total": 10.9,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T17:36:29-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T17:39:29-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T17:50:29-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T17:55:29-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1011",
+        "codigo": "9EDD6C",
+        "fecha": "2026-09-19T18:17:49-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-19T18:45",
+        "programado": false,
+        "listo_estimado": "2026-09-19T18:33:49-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1592",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-19T18:17:49-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-19T18:20:49-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-19T18:32:49-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-19T18:37:49-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1012",
+        "codigo": "CFDF55",
+        "fecha": "2026-09-20T11:31:53-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-20T12:00",
+        "programado": false,
+        "listo_estimado": "2026-09-20T11:48:53-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T11:31:53-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T11:34:53-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T11:47:53-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T11:52:53-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1013",
+        "codigo": "EA55F9",
+        "fecha": "2026-09-20T12:13:37-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T12:30",
+        "programado": false,
+        "listo_estimado": "2026-09-20T12:25:37-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T12:13:37-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T12:16:37-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T12:24:37-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T12:29:37-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1014",
+        "codigo": "5110F2",
+        "fecha": "2026-09-20T12:55:17-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-20T13:08:17-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T12:55:17-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T12:58:17-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T13:07:17-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T13:12:17-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1015",
+        "codigo": "A13B0A",
+        "fecha": "2026-09-20T13:39:19-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-20T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-20T13:53:19-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T13:39:19-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T13:42:19-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T13:52:19-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T13:57:19-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1016",
+        "codigo": "5E5B64",
+        "fecha": "2026-09-20T14:12:22-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T14:30",
+        "programado": false,
+        "listo_estimado": "2026-09-20T14:27:22-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T14:12:22-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-20T14:14:22-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1017",
+        "codigo": "04468D",
+        "fecha": "2026-09-20T14:58:23-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-20T15:14:23-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T14:58:23-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T15:01:23-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T15:13:23-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T15:18:23-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1018",
+        "codigo": "D578CA",
+        "fecha": "2026-09-20T15:32:51-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-20T16:00",
+        "programado": false,
+        "listo_estimado": "2026-09-20T15:49:51-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T15:32:51-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T15:35:51-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T15:48:51-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T15:53:51-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1019",
+        "codigo": "6F6468",
+        "fecha": "2026-09-20T16:13:59-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-20T16:25:59-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1444",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 0,
+        "total": 11,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T16:13:59-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T16:16:59-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T16:24:59-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T16:29:59-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1020",
+        "codigo": "8540F7",
+        "fecha": "2026-09-20T16:55:17-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-20T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-20T17:08:17-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1481",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T16:55:17-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T16:58:17-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T17:07:17-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T17:12:17-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1021",
+        "codigo": "8A70A3",
+        "fecha": "2026-09-20T17:36:09-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-20T18:00",
+        "programado": false,
+        "listo_estimado": "2026-09-20T17:50:09-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1518",
+            "direccion": "Calle Pino 24"
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 2.5,
+        "total": 18.4,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-20T17:36:09-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-20T17:39:09-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-20T17:49:09-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-20T17:54:09-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1022",
+        "codigo": "D6A76C",
+        "fecha": "2026-09-21T11:31:05-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T12:00",
+        "programado": false,
+        "listo_estimado": "2026-09-21T11:47:05-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1148",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 0,
+        "total": 15.9,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T11:31:05-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T11:34:05-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T11:46:05-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T11:51:05-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1023",
+        "codigo": "9C72EF",
+        "fecha": "2026-09-21T12:11:20-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-21T12:30",
+        "programado": false,
+        "listo_estimado": "2026-09-21T12:28:20-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T12:11:20-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T12:14:20-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T12:27:20-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T12:32:20-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1024",
+        "codigo": "31638E",
+        "fecha": "2026-09-21T12:50:52-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-21T13:02:52-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T12:50:52-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T12:53:52-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T13:01:52-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T13:06:52-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1025",
+        "codigo": "08BB3D",
+        "fecha": "2026-09-21T13:36:03-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-21T13:49:03-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T13:36:03-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T13:39:03-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T13:48:03-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T13:53:03-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1026",
+        "codigo": "048AB3",
+        "fecha": "2026-09-21T14:14:18-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-21T14:30",
+        "programado": false,
+        "listo_estimado": "2026-09-21T14:28:18-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T14:14:18-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-21T14:16:18-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1027",
+        "codigo": "7C8FB4",
+        "fecha": "2026-09-21T14:53:58-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-21T15:08:58-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T14:53:58-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T14:56:58-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T15:07:58-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T15:12:58-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1028",
+        "codigo": "5B4AD6",
+        "fecha": "2026-09-21T15:35:14-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T16:00",
+        "programado": false,
+        "listo_estimado": "2026-09-21T15:51:14-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T15:35:14-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T15:38:14-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T15:50:14-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T15:55:14-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1029",
+        "codigo": "AB3034",
+        "fecha": "2026-09-21T16:15:36-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-21T16:45",
+        "programado": false,
+        "listo_estimado": "2026-09-21T16:32:36-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T16:15:36-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T16:18:36-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T16:31:36-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T16:36:36-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1030",
+        "codigo": "0C52B3",
+        "fecha": "2026-09-21T16:57:32-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-21T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-21T17:09:32-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1444",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 0,
+        "total": 11,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-21T16:57:32-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-21T17:00:32-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-21T17:08:32-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-21T17:13:32-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1031",
+        "codigo": "9EF829",
+        "fecha": "2026-09-22T11:32:41-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T12:00",
+        "programado": false,
+        "listo_estimado": "2026-09-22T11:47:41-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1111",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T11:32:41-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T11:35:41-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T11:46:41-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T11:51:41-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1032",
+        "codigo": "470BDC",
+        "fecha": "2026-09-22T12:12:15-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T12:30",
+        "programado": false,
+        "listo_estimado": "2026-09-22T12:28:15-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1148",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 0,
+        "total": 15.9,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T12:12:15-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T12:15:15-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T12:27:15-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T12:32:15-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1033",
+        "codigo": "01871D",
+        "fecha": "2026-09-22T12:53:06-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-22T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-22T13:10:06-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T12:53:06-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T12:56:06-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T13:09:06-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T13:14:06-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1034",
+        "codigo": "4418D5",
+        "fecha": "2026-09-22T13:30:13-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T13:45",
+        "programado": false,
+        "listo_estimado": "2026-09-22T13:42:13-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T13:30:13-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T13:33:13-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T13:41:13-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T13:46:13-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1035",
+        "codigo": "6A3771",
+        "fecha": "2026-09-22T14:12:41-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T14:30",
+        "programado": false,
+        "listo_estimado": "2026-09-22T14:25:41-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T14:12:41-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-22T14:14:41-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1036",
+        "codigo": "8B444C",
+        "fecha": "2026-09-22T14:57:06-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-22T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-22T15:11:06-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T14:57:06-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T15:00:06-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T15:10:06-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T15:15:06-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1037",
+        "codigo": "1A45ED",
+        "fecha": "2026-09-22T15:31:15-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T16:00",
+        "programado": false,
+        "listo_estimado": "2026-09-22T15:46:15-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T15:31:15-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T15:34:15-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T15:45:15-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T15:50:15-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1038",
+        "codigo": "DC8C17",
+        "fecha": "2026-09-22T16:13:27-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-22T16:29:27-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T16:13:27-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T16:16:27-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T16:28:27-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T16:33:27-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1039",
+        "codigo": "6BADBB",
+        "fecha": "2026-09-22T16:50:26-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-22T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-22T17:07:26-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T16:50:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T16:53:26-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T17:06:26-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T17:11:26-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1040",
+        "codigo": "21124F",
+        "fecha": "2026-09-22T17:38:54-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T18:00",
+        "programado": false,
+        "listo_estimado": "2026-09-22T17:50:54-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1444",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 0,
+        "total": 11,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T17:38:54-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T17:41:54-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T17:49:54-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T17:54:54-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1041",
+        "codigo": "92A043",
+        "fecha": "2026-09-22T18:17:16-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-22T18:45",
+        "programado": false,
+        "listo_estimado": "2026-09-22T18:30:16-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1481",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T18:17:16-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T18:20:16-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T18:29:16-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T18:34:16-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1042",
+        "codigo": "9ED676",
+        "fecha": "2026-09-22T18:58:15-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-22T19:15",
+        "programado": false,
+        "listo_estimado": "2026-09-22T19:12:15-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1518",
+            "direccion": "Calle Pino 24"
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 2.5,
+        "total": 18.4,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-22T18:58:15-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-22T19:01:15-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-22T19:11:15-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-22T19:16:15-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1043",
+        "codigo": "E026C9",
+        "fecha": "2026-09-23T11:32:09-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-23T12:00",
+        "programado": false,
+        "listo_estimado": "2026-09-23T11:46:09-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1074",
+            "direccion": "Calle Pino 12"
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 2.5,
+        "total": 13.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T11:32:09-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T11:35:09-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T11:45:09-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T11:50:09-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1044",
+        "codigo": "B21401",
+        "fecha": "2026-09-23T12:15:38-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T12:45",
+        "programado": false,
+        "listo_estimado": "2026-09-23T12:30:38-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1111",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T12:15:38-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T12:18:38-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T12:29:38-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T12:34:38-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1045",
+        "codigo": "3A842B",
+        "fecha": "2026-09-23T12:52:03-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-23T13:08:03-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1148",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 0,
+        "total": 15.9,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T12:52:03-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T12:55:03-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T13:07:03-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T13:12:03-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1046",
+        "codigo": "74EC3E",
+        "fecha": "2026-09-23T13:31:16-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-23T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-23T13:48:16-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T13:31:16-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T13:34:16-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T13:47:16-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T13:52:16-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1047",
+        "codigo": "0B6C6F",
+        "fecha": "2026-09-23T14:19:04-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T14:45",
+        "programado": false,
+        "listo_estimado": "2026-09-23T14:31:04-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T14:19:04-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-23T14:21:04-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1048",
+        "codigo": "AC4F34",
+        "fecha": "2026-09-23T14:51:51-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-23T15:04:51-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T14:51:51-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T14:54:51-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T15:03:51-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T15:08:51-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1049",
+        "codigo": "7E0CD4",
+        "fecha": "2026-09-23T15:30:46-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-23T15:45",
+        "programado": false,
+        "listo_estimado": "2026-09-23T15:44:46-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T15:30:46-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T15:33:46-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T15:43:46-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T15:48:46-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1050",
+        "codigo": "CA579C",
+        "fecha": "2026-09-23T16:14:58-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-23T16:29:58-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T16:14:58-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T16:17:58-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T16:28:58-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T16:33:58-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1051",
+        "codigo": "80D17B",
+        "fecha": "2026-09-23T16:58:52-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-23T17:14:52-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T16:58:52-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T17:01:52-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T17:13:52-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T17:18:52-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1052",
+        "codigo": "4AFFAA",
+        "fecha": "2026-09-23T17:34:05-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-23T18:00",
+        "programado": false,
+        "listo_estimado": "2026-09-23T17:51:05-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T17:34:05-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T17:37:05-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T17:50:05-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T17:55:05-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1053",
+        "codigo": "459EA7",
+        "fecha": "2026-09-23T18:10:08-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-23T18:30",
+        "programado": false,
+        "listo_estimado": "2026-09-23T18:22:08-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1444",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 0,
+        "total": 11,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-23T18:10:08-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-23T18:13:08-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-23T18:21:08-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-23T18:26:08-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1054",
+        "codigo": "390FE8",
+        "fecha": "2026-09-24T11:33:56-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T12:00",
+        "programado": false,
+        "listo_estimado": "2026-09-24T11:46:56-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1037",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [
+                    "Cebolla"
+                ],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 0,
+        "total": 15,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T11:33:56-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T11:36:56-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T11:45:56-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T11:50:56-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1055",
+        "codigo": "3AFE5B",
+        "fecha": "2026-09-24T12:11:35-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-24T12:30",
+        "programado": false,
+        "listo_estimado": "2026-09-24T12:25:35-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1074",
+            "direccion": "Calle Pino 12"
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 2.5,
+        "total": 13.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T12:11:35-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T12:14:35-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T12:24:35-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T12:29:35-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1056",
+        "codigo": "A4D4A3",
+        "fecha": "2026-09-24T12:56:58-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T13:15",
+        "programado": false,
+        "listo_estimado": "2026-09-24T13:11:58-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1111",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T12:56:58-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T12:59:58-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T13:10:58-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T13:15:58-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1057",
+        "codigo": "6D9776",
+        "fecha": "2026-09-24T13:39:46-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-24T13:55:46-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1148",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 0,
+        "total": 15.9,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T13:39:46-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T13:42:46-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T13:54:46-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T13:59:46-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1058",
+        "codigo": "2B55AD",
+        "fecha": "2026-09-24T14:14:35-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-24T14:45",
+        "programado": false,
+        "listo_estimado": "2026-09-24T14:31:35-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "cancelado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T14:14:35-06:00"
+            },
+            {
+                "estado": "cancelado",
+                "fecha": "2026-09-24T14:16:35-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1059",
+        "codigo": "A1C02B",
+        "fecha": "2026-09-24T14:51:38-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-24T15:03:38-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T14:51:38-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T14:54:38-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T15:02:38-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T15:07:38-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1060",
+        "codigo": "8C943F",
+        "fecha": "2026-09-24T15:30:08-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T15:45",
+        "programado": false,
+        "listo_estimado": "2026-09-24T15:43:08-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T15:30:08-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T15:33:08-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T15:42:08-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T15:47:08-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1061",
+        "codigo": "09449A",
+        "fecha": "2026-09-24T16:10:23-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-24T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-24T16:24:23-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T16:10:23-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T16:13:23-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T16:23:23-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T16:28:23-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1062",
+        "codigo": "D1A2DF",
+        "fecha": "2026-09-24T16:50:26-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-24T17:05:26-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T16:50:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T16:53:26-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T17:04:26-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T17:09:26-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1063",
+        "codigo": "31E374",
+        "fecha": "2026-09-24T17:37:40-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-24T18:00",
+        "programado": false,
+        "listo_estimado": "2026-09-24T17:53:40-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-24T17:37:40-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-24T17:40:40-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-24T17:52:40-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-24T17:57:40-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1064",
+        "codigo": "F9737B",
+        "fecha": "2026-09-25T11:15:00-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T11:30",
+        "programado": false,
+        "listo_estimado": "2026-09-25T11:27:00-06:00",
+        "cliente": {
+            "nombre": "Mariana",
+            "telefono": "555 010 1000",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T11:15:00-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T11:18:00-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T11:26:00-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T11:31:00-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1065",
+        "codigo": "338A27",
+        "fecha": "2026-09-25T11:52:59-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T12:15",
+        "programado": false,
+        "listo_estimado": "2026-09-25T12:05:59-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1037",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [
+                    "Cebolla"
+                ],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 0,
+        "total": 15,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T11:52:59-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T11:55:59-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T12:04:59-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T12:09:59-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1066",
+        "codigo": "518870",
+        "fecha": "2026-09-25T12:18:16-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T12:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T12:32:16-06:00",
+        "cliente": {
+            "nombre": "Lucía",
+            "telefono": "555 010 1074",
+            "direccion": "Calle Pino 12"
+        },
+        "items": [
+            {
+                "id": "combo-chispa",
+                "nombre": "Combo Chispa",
+                "cantidad": 1,
+                "precio": 11,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 11,
+        "envio": 2.5,
+        "total": 13.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T12:18:16-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T12:21:16-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T12:31:16-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T12:36:16-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1067",
+        "codigo": "C418CF",
+        "fecha": "2026-09-25T13:02:11-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T13:30",
+        "programado": false,
+        "listo_estimado": "2026-09-25T13:17:11-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1111",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T13:02:11-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T13:05:11-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T13:16:11-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T13:21:11-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1068",
+        "codigo": "705007",
+        "fecha": "2026-09-25T13:40:37-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T14:00",
+        "programado": false,
+        "listo_estimado": "2026-09-25T13:56:37-06:00",
+        "cliente": {
+            "nombre": "Valeria",
+            "telefono": "555 010 1148",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "combo-pollo",
+                "nombre": "Combo BBQ",
+                "cantidad": 1,
+                "precio": 12,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "brownie",
+                "nombre": "Brownie con helado",
+                "cantidad": 1,
+                "precio": 3.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1,
+            "brownie": 1,
+            "helado": 1
+        },
+        "subtotal": 15.9,
+        "envio": 0,
+        "total": 15.9,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T13:40:37-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T13:43:37-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T13:55:37-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T14:00:37-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1069",
+        "codigo": "7192BB",
+        "fecha": "2026-09-25T14:27:24-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T14:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T14:44:24-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T14:27:24-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T14:30:24-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T14:43:24-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T14:48:24-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1070",
+        "codigo": "AE824A",
+        "fecha": "2026-09-25T14:57:06-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T15:15",
+        "programado": false,
+        "listo_estimado": "2026-09-25T15:09:06-06:00",
+        "cliente": {
+            "nombre": "Sofía",
+            "telefono": "555 010 1222",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-picante",
+                "nombre": "La Picante",
+                "cantidad": 1,
+                "precio": 8.5,
+                "extras": [
+                    "Tocino ahumado"
+                ],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "aros-cebolla",
+                "nombre": "Aros de cebolla",
+                "cantidad": 1,
+                "precio": 3.8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "aros": 1
+        },
+        "subtotal": 12.3,
+        "envio": 0,
+        "total": 12.3,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T14:57:06-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T15:00:06-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T15:08:06-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T15:13:06-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1071",
+        "codigo": "3129BB",
+        "fecha": "2026-09-25T15:28:35-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T15:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T15:41:35-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T15:28:35-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T15:31:35-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T15:40:35-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T15:45:35-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1072",
+        "codigo": "584222",
+        "fecha": "2026-09-25T16:14:25-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T16:30",
+        "programado": false,
+        "listo_estimado": "2026-09-25T16:28:25-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T16:14:25-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T16:17:25-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T16:27:25-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T16:32:25-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1073",
+        "codigo": "A99DE8",
+        "fecha": "2026-09-25T16:57:04-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T17:15",
+        "programado": false,
+        "listo_estimado": "2026-09-25T17:12:04-06:00",
+        "cliente": {
+            "nombre": "Iván",
+            "telefono": "555 010 1333",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "hot-dog-chispa",
+                "nombre": "Hot Dog Chispa",
+                "cantidad": 1,
+                "precio": 5.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan_hotdog": 1,
+            "salchicha": 1,
+            "vaso": 1
+        },
+        "subtotal": 7.5,
+        "envio": 0,
+        "total": 7.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T16:57:04-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T17:00:04-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T17:11:04-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T17:16:04-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1074",
+        "codigo": "F12B56",
+        "fecha": "2026-09-25T17:46:55-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T18:15",
+        "programado": false,
+        "listo_estimado": "2026-09-25T18:02:55-06:00",
+        "cliente": {
+            "nombre": "Renata",
+            "telefono": "555 010 1370",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "la-chispa",
+                "nombre": "La Chispa",
+                "cantidad": 1,
+                "precio": 7.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "subtotal": 12.5,
+        "envio": 0,
+        "total": 12.5,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T17:46:55-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T17:49:55-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T18:01:55-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T18:06:55-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1075",
+        "codigo": "6E039E",
+        "fecha": "2026-09-25T18:14:32-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T18:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T18:31:32-06:00",
+        "cliente": {
+            "nombre": "Camila",
+            "telefono": "555 010 1407",
+            "direccion": "Calle Pino 21"
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 2.5,
+        "total": 17.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "entregado",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T18:14:32-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T18:17:32-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T18:30:32-06:00"
+            },
+            {
+                "estado": "entregado",
+                "fecha": "2026-09-25T18:35:32-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1076",
+        "codigo": "25D228",
+        "fecha": "2026-09-25T19:02:26-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T19:30",
+        "programado": false,
+        "listo_estimado": "2026-09-25T19:20:26-06:00",
+        "cliente": {
+            "nombre": "Andrés",
+            "telefono": "555 010 1111",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "crispy-pollo",
+                "nombre": "Crispy Pollo",
+                "cantidad": 1,
+                "precio": 8,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "limonada",
+                "nombre": "Limonada natural",
+                "cantidad": 1,
+                "precio": 2.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "pollo": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.5,
+        "envio": 0,
+        "total": 10.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "preparando",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T19:02:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T19:05:26-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1077",
+        "codigo": "E6D999",
+        "fecha": "2026-09-25T19:14:26-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T19:30",
+        "programado": false,
+        "listo_estimado": "2026-09-25T19:26:26-06:00",
+        "cliente": {
+            "nombre": "Tomás",
+            "telefono": "555 010 1185",
+            "direccion": "Calle Pino 15"
+        },
+        "items": [
+            {
+                "id": "alitas-bbq",
+                "nombre": "Alitas BBQ · 8 piezas",
+                "cantidad": 1,
+                "precio": 8.9,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "refresco",
+                "nombre": "Refresco 500 ml",
+                "cantidad": 1,
+                "precio": 2,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "alitas": 1,
+            "vaso": 1
+        },
+        "subtotal": 10.9,
+        "envio": 2.5,
+        "total": 13.4,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "listo",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T19:14:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T19:17:26-06:00"
+            },
+            {
+                "estado": "listo",
+                "fecha": "2026-09-25T19:25:26-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1078",
+        "codigo": "2AC2A2",
+        "fecha": "2026-09-25T19:19:26-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T19:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T19:35:26-06:00",
+        "cliente": {
+            "nombre": "Javier",
+            "telefono": "555 010 1259",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "nuggets",
+                "nombre": "Nuggets · 10 piezas",
+                "cantidad": 1,
+                "precio": 6.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            },
+            {
+                "id": "papas-clasicas",
+                "nombre": "Papas clásicas",
+                "cantidad": 1,
+                "precio": 3,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "nuggets": 1,
+            "papas": 1
+        },
+        "subtotal": 9.5,
+        "envio": 0,
+        "total": 9.5,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "preparando",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T19:19:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T19:22:26-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1079",
+        "codigo": "3E0CD2",
+        "fecha": "2026-09-25T19:23:26-06:00",
+        "tipo": "recoger",
+        "franja": "2026-09-25T19:45",
+        "programado": false,
+        "listo_estimado": "2026-09-25T19:40:26-06:00",
+        "cliente": {
+            "nombre": "Diego",
+            "telefono": "555 010 1037",
+            "direccion": ""
+        },
+        "items": [
+            {
+                "id": "doble-chispa",
+                "nombre": "Doble Chispa",
+                "cantidad": 1,
+                "precio": 10.5,
+                "extras": [],
+                "quitar": [
+                    "Cebolla"
+                ],
+                "nota": ""
+            },
+            {
+                "id": "malteada-fresa",
+                "nombre": "Malteada de fresa",
+                "cantidad": 1,
+                "precio": 4.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 15,
+        "envio": 0,
+        "total": 15,
+        "pago": "tarjeta",
+        "notas": "",
+        "estado": "preparando",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T19:23:26-06:00"
+            },
+            {
+                "estado": "preparando",
+                "fecha": "2026-09-25T20:57:30-06:00"
+            }
+        ],
+        "demo": true
+    },
+    {
+        "numero": "CH-1080",
+        "codigo": "AD84EB",
+        "fecha": "2026-09-25T19:26:26-06:00",
+        "tipo": "domicilio",
+        "franja": "2026-09-25T20:00",
+        "programado": false,
+        "listo_estimado": "2026-09-25T19:46:26-06:00",
+        "cliente": {
+            "nombre": "Paula",
+            "telefono": "555 010 1296",
+            "direccion": "Calle Pino 18"
+        },
+        "items": [
+            {
+                "id": "combo-familiar",
+                "nombre": "Combo Doble",
+                "cantidad": 1,
+                "precio": 13.5,
+                "extras": [],
+                "quitar": [],
+                "nota": ""
+            }
+        ],
+        "consumo": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "subtotal": 13.5,
+        "envio": 2.5,
+        "total": 16,
+        "pago": "efectivo",
+        "notas": "",
+        "estado": "recibido",
+        "historial": [
+            {
+                "estado": "recibido",
+                "fecha": "2026-09-25T19:26:26-06:00"
+            }
+        ],
+        "demo": true
+    }
+]

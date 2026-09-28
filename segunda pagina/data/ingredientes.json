@@ -1,0 +1,114 @@
+[
+    {
+        "id": "pan",
+        "nombre": "Pan de hamburguesa",
+        "unidad": "piezas",
+        "stock": 60,
+        "umbral": 15
+    },
+    {
+        "id": "carne",
+        "nombre": "Carne de res 150 g",
+        "unidad": "piezas",
+        "stock": 70,
+        "umbral": 15
+    },
+    {
+        "id": "pollo",
+        "nombre": "Pechuga empanizada",
+        "unidad": "piezas",
+        "stock": 28,
+        "umbral": 10
+    },
+    {
+        "id": "alitas",
+        "nombre": "Alitas (8 pzs)",
+        "unidad": "porciones",
+        "stock": 12,
+        "umbral": 5
+    },
+    {
+        "id": "nuggets",
+        "nombre": "Nuggets (10 pzs)",
+        "unidad": "porciones",
+        "stock": 15,
+        "umbral": 5
+    },
+    {
+        "id": "queso",
+        "nombre": "Queso cheddar",
+        "unidad": "rebanadas",
+        "stock": 80,
+        "umbral": 20
+    },
+    {
+        "id": "tocino",
+        "nombre": "Tocino",
+        "unidad": "porciones",
+        "stock": 22,
+        "umbral": 8
+    },
+    {
+        "id": "salchicha",
+        "nombre": "Salchicha de res",
+        "unidad": "piezas",
+        "stock": 20,
+        "umbral": 6
+    },
+    {
+        "id": "pan_hotdog",
+        "nombre": "Pan de hot dog",
+        "unidad": "piezas",
+        "stock": 20,
+        "umbral": 6
+    },
+    {
+        "id": "tortilla",
+        "nombre": "Tortilla de harina",
+        "unidad": "piezas",
+        "stock": 14,
+        "umbral": 5
+    },
+    {
+        "id": "papas",
+        "nombre": "Papas",
+        "unidad": "porciones",
+        "stock": 90,
+        "umbral": 20
+    },
+    {
+        "id": "aros",
+        "nombre": "Aros de cebolla",
+        "unidad": "porciones",
+        "stock": 4,
+        "umbral": 6
+    },
+    {
+        "id": "ensalada",
+        "nombre": "Mezcla de ensalada",
+        "unidad": "porciones",
+        "stock": 0,
+        "umbral": 4
+    },
+    {
+        "id": "vaso",
+        "nombre": "Vasos de bebida",
+        "unidad": "piezas",
+        "stock": 150,
+        "umbral": 30
+    },
+    {
+        "id": "helado",
+        "nombre": "Helado",
+        "unidad": "bolas",
+        "stock": 40,
+        "umbral": 10
+    },
+    {
+        "id": "brownie",
+        "nombre": "Brownie",
+        "unidad": "piezas",
+        "stock": 8,
+        "umbral": 4
+    }
+]

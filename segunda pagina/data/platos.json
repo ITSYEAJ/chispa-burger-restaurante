@@ -1,0 +1,484 @@
+[
+    {
+        "id": "doble-chispa",
+        "nombre": "Doble Chispa",
+        "categoria": "hamburguesas",
+        "precio": 10.5,
+        "kcal": 980,
+        "descripcion": "Dos carnes smash de 120 g, doble cheddar, pepinillos y cebolla caramelizada.",
+        "receta": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 2
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": true,
+        "imagen": "img/menu/doble-chispa.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 1
+    },
+    {
+        "id": "la-chispa",
+        "nombre": "La Chispa",
+        "categoria": "hamburguesas",
+        "precio": 7.5,
+        "kcal": 720,
+        "descripcion": "Carne de res 150 g al carbón, cheddar, lechuga, tomate y salsa de la casa.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": true,
+        "imagen": "img/menu/la-chispa.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 2
+    },
+    {
+        "id": "crispy-pollo",
+        "nombre": "Crispy Pollo",
+        "categoria": "pollo",
+        "precio": 8,
+        "kcal": 690,
+        "descripcion": "Pechuga marinada en suero de leche, empanizada al momento, con mayonesa de chipotle.",
+        "receta": {
+            "pan": 1,
+            "pollo": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": true,
+        "imagen": "img/menu/crispy-pollo.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 3
+    },
+    {
+        "id": "tocineta-bbq",
+        "nombre": "Tocineta BBQ",
+        "categoria": "hamburguesas",
+        "precio": 9.5,
+        "kcal": 910,
+        "descripcion": "Carne 150 g, tocino ahumado, aros de cebolla y salsa BBQ de la casa.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/tocineta-bbq.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 4
+    },
+    {
+        "id": "combo-chispa",
+        "nombre": "Combo Chispa",
+        "categoria": "combos",
+        "precio": 11,
+        "kcal": 1180,
+        "descripcion": "La Chispa, papas clásicas y refresco de 500 ml.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/combo-chispa.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 5
+    },
+    {
+        "id": "papas-clasicas",
+        "nombre": "Papas clásicas",
+        "categoria": "acompanantes",
+        "precio": 3,
+        "kcal": 380,
+        "descripcion": "Papas cortadas a mano, fritas dos veces y con sal de mar.",
+        "receta": {
+            "papas": 1
+        },
+        "promo": {
+            "nombre": "Hora Chispa",
+            "precio": 2.4,
+            "dias": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "desde": "15:00",
+            "hasta": "18:00"
+        },
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/papas-clasicas.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 6
+    },
+    {
+        "id": "la-picante",
+        "nombre": "La Picante",
+        "categoria": "hamburguesas",
+        "precio": 8.5,
+        "kcal": 760,
+        "descripcion": "Carne 150 g, pepper jack, jalapeños asados y salsa diabla.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1
+        },
+        "promo": null,
+        "picante": true,
+        "favorito": false,
+        "imagen": "img/menu/la-picante.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 7
+    },
+    {
+        "id": "malteada-chocolate",
+        "nombre": "Malteada de chocolate",
+        "categoria": "bebidas",
+        "precio": 4.5,
+        "kcal": 540,
+        "descripcion": "Helado de chocolate, cacao y crema batida.",
+        "receta": {
+            "vaso": 1,
+            "helado": 2
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/malteada-chocolate.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-09-21T19:28:26-06:00",
+        "orden": 8
+    },
+    {
+        "id": "smash-clasica",
+        "nombre": "Smash Clásica",
+        "categoria": "hamburguesas",
+        "precio": 6.9,
+        "kcal": 610,
+        "descripcion": "Carne smash 120 g, cheddar, cebolla a la plancha y mostaza.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "queso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/smash-clasica.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-09-19T19:28:26-06:00",
+        "orden": 9
+    },
+    {
+        "id": "alitas-bbq",
+        "nombre": "Alitas BBQ · 8 piezas",
+        "categoria": "pollo",
+        "precio": 8.9,
+        "kcal": 820,
+        "descripcion": "Alitas marinadas 12 horas y bañadas en BBQ ahumada.",
+        "receta": {
+            "alitas": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/alitas-bbq.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 10
+    },
+    {
+        "id": "nuggets",
+        "nombre": "Nuggets · 10 piezas",
+        "categoria": "pollo",
+        "precio": 6.5,
+        "kcal": 470,
+        "descripcion": "Pechuga de pollo en trozos con dos salsas a elegir.",
+        "receta": {
+            "nuggets": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/nuggets.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 11
+    },
+    {
+        "id": "wrap-pollo",
+        "nombre": "Wrap de pollo",
+        "categoria": "pollo",
+        "precio": 7,
+        "kcal": 560,
+        "descripcion": "Tortilla de harina, pollo a la plancha, lechuga, queso y aderezo ranch.",
+        "receta": {
+            "tortilla": 1,
+            "pollo": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/wrap-pollo.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 12
+    },
+    {
+        "id": "hot-dog-chispa",
+        "nombre": "Hot Dog Chispa",
+        "categoria": "hotdogs",
+        "precio": 5.5,
+        "kcal": 480,
+        "descripcion": "Salchicha de res a la parrilla, mostaza, cebolla crujiente y pepinillo.",
+        "receta": {
+            "pan_hotdog": 1,
+            "salchicha": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/hot-dog-chispa.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 13
+    },
+    {
+        "id": "papas-queso-tocino",
+        "nombre": "Papas con queso y tocino",
+        "categoria": "acompanantes",
+        "precio": 4.5,
+        "kcal": 620,
+        "descripcion": "Papas clásicas con cheddar fundido y tocino picado.",
+        "receta": {
+            "papas": 1,
+            "queso": 1,
+            "tocino": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/papas-queso-tocino.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 14
+    },
+    {
+        "id": "aros-cebolla",
+        "nombre": "Aros de cebolla",
+        "categoria": "acompanantes",
+        "precio": 3.8,
+        "kcal": 410,
+        "descripcion": "Cebolla blanca empanizada en cerveza, con aderezo ranch.",
+        "receta": {
+            "aros": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/aros-cebolla.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 15
+    },
+    {
+        "id": "ensalada-cesar",
+        "nombre": "Ensalada César",
+        "categoria": "acompanantes",
+        "precio": 5.5,
+        "kcal": 330,
+        "descripcion": "Lechuga romana, parmesano, crutones y aderezo césar.",
+        "receta": {
+            "ensalada": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/ensalada-cesar.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 16
+    },
+    {
+        "id": "refresco",
+        "nombre": "Refresco 500 ml",
+        "categoria": "bebidas",
+        "precio": 2,
+        "kcal": 210,
+        "descripcion": "Cola, naranja o lima-limón, con hielo.",
+        "receta": {
+            "vaso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/refresco.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 17
+    },
+    {
+        "id": "limonada",
+        "nombre": "Limonada natural",
+        "categoria": "bebidas",
+        "precio": 2.5,
+        "kcal": 140,
+        "descripcion": "Limón recién exprimido, hierbabuena y un toque de miel.",
+        "receta": {
+            "vaso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/limonada.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 18
+    },
+    {
+        "id": "malteada-fresa",
+        "nombre": "Malteada de fresa",
+        "categoria": "bebidas",
+        "precio": 4.5,
+        "kcal": 510,
+        "descripcion": "Helado de vainilla, fresas naturales y crema batida.",
+        "receta": {
+            "vaso": 1,
+            "helado": 2
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/malteada-fresa.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 19
+    },
+    {
+        "id": "cono-vainilla",
+        "nombre": "Cono de vainilla",
+        "categoria": "postres",
+        "precio": 1.9,
+        "kcal": 230,
+        "descripcion": "Helado suave de vainilla en cono crujiente.",
+        "receta": {
+            "helado": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/cono-vainilla.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 20
+    },
+    {
+        "id": "brownie",
+        "nombre": "Brownie con helado",
+        "categoria": "postres",
+        "precio": 3.9,
+        "kcal": 480,
+        "descripcion": "Brownie tibio de chocolate con una bola de vainilla.",
+        "receta": {
+            "brownie": 1,
+            "helado": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/brownie.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 21
+    },
+    {
+        "id": "combo-pollo",
+        "nombre": "Combo BBQ",
+        "categoria": "combos",
+        "precio": 12,
+        "kcal": 1500,
+        "descripcion": "Tocineta BBQ, papas clásicas y refresco de 500 ml.",
+        "receta": {
+            "pan": 1,
+            "carne": 1,
+            "tocino": 2,
+            "queso": 1,
+            "papas": 1,
+            "vaso": 1
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/combo-pollo.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 22
+    },
+    {
+        "id": "combo-familiar",
+        "nombre": "Combo Doble",
+        "categoria": "combos",
+        "precio": 13.5,
+        "kcal": 2100,
+        "descripcion": "Doble Chispa, papas con queso y malteada.",
+        "receta": {
+            "pan": 1,
+            "carne": 2,
+            "queso": 3,
+            "papas": 1,
+            "vaso": 1,
+            "helado": 2
+        },
+        "promo": null,
+        "picante": false,
+        "favorito": false,
+        "imagen": "img/menu/combo-familiar.webp",
+        "activo": true,
+        "disponible": true,
+        "creado": "2026-05-01T10:00:00-06:00",
+        "orden": 23
+    }
+]

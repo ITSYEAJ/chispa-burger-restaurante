@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Panel · Chispa Burger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <script src="../js/tema.js"></script>
+</head>
+<body class="pagina-admin">
+
+  <div class="acceso" id="pantallaAcceso" hidden>
+    <div class="acceso__caja">
+      <p class="acceso__marca">Chispa Burger</p>
+      <p id="accesoTexto">Panel del restaurante</p>
+      <form id="formAcceso" novalidate>
+        <div class="campo">
+          <label for="usuario">Usuario</label>
+          <input type="text" id="usuario" name="usuario" maxlength="30" autocomplete="username" required>
+        </div>
+        <div class="campo">
+          <label for="clave">Contraseña</label>
+          <input type="password" id="clave" name="clave" maxlength="200" autocomplete="current-password" required>
+        </div>
+        <div class="campo" id="campoClave2" hidden>
+          <label for="clave2">Repite la contraseña</label>
+          <input type="password" id="clave2" name="clave2" maxlength="200" autocomplete="new-password">
+        </div>
+        <p class="form__error" id="errorAcceso" role="alert"></p>
+        <button class="boton boton--ancho" type="submit" id="botonAcceso">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="admin" id="panel" hidden>
+    <aside class="lateral">
+      <p class="lateral__marca">Chispa Burger<small>Panel del restaurante</small></p>
+      <nav class="lateral__nav" aria-label="Secciones del panel">
+        <button type="button" data-vista="resumen" class="activo">Resumen</button>
+        <button type="button" data-vista="cocina">Cocina <span class="contador" id="cCocina" hidden></span></button>
+        <button type="button" data-vista="pedidos">Pedidos</button>
+        <button type="button" data-vista="menu">Menú</button>
+        <button type="button" data-vista="inventario">Inventario <span class="contador" id="cInventario" hidden></span></button>
+        <button type="button" data-vista="patrocinadores">Patrocinadores</button>
+        <button type="button" data-vista="automatizaciones">Automatizaciones</button>
+      </nav>
+      <div class="lateral__pie">
+        <button type="button" class="cambiar-tema" id="cambiarTema" aria-pressed="false">
+          <svg class="icono-luna" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+          <svg class="icono-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <span id="cambiarTemaTexto">Modo oscuro</span>
+        </button>
+        <a href="../public/" target="_blank" rel="noopener">Ver la página ↗</a>
+        <button type="button" id="salir">Cerrar sesión</button>
+      </div>
+    </aside>
+
+    <main class="escritorio">
+
+      <section class="vista" id="vista-resumen" aria-labelledby="tResumen">
+        <div class="escritorio__cab">
+          <h1 id="tResumen">Resumen de hoy</h1>
+          <span class="etiqueta" id="fechaHoy"></span>
+        </div>
+        <p class="nota-demo" id="notaDemo" hidden>Estás viendo pedidos de ejemplo. Bórralos en «Automatizaciones» cuando empieces a vender.</p>
+        <div class="kpis" id="kpis"></div>
+        <div class="paneles">
+          <div class="panel">
+            <div class="panel__cab"><h2>Pedidos por hora</h2><small id="totalSerie"></small></div>
+            <canvas class="grafico" id="grafico" width="720" height="240" role="img" aria-label="Gráfico de pedidos por hora de hoy"></canvas>
+          </div>
+          <div class="panel">
+            <h2>Más pedidos · 7 días</h2>
+            <ol class="top" id="top"></ol>
+          </div>
+          <div class="panel panel--ancho">
+            <div class="panel__cab"><h2>Alertas automáticas</h2><small id="nAlertas"></small></div>
+            <ul class="alertas" id="alertas"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="vista" id="vista-cocina" aria-labelledby="tCocina" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tCocina">Pantalla de cocina</h1>
+          <span class="etiqueta" id="cocinaActualizado"></span>
+        </div>
+        <div class="cocina">
+          <div class="columna"><div class="columna__cab">Recibidos <span id="nRecibido">0</span></div><div id="colRecibido"></div></div>
+          <div class="columna"><div class="columna__cab">En la plancha <span id="nPreparando">0</span></div><div id="colPreparando"></div></div>
+          <div class="columna"><div class="columna__cab">Listos <span id="nListo">0</span></div><div id="colListo"></div></div>
+        </div>
+      </section>
+
+      <section class="vista" id="vista-pedidos" aria-labelledby="tPedidos" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tPedidos">Pedidos</h1>
+          <button class="boton boton--contorno" type="button" id="exportarPedidos">Exportar CSV</button>
+        </div>
+        <div class="filtros-admin" id="filtroPedidos" role="group" aria-label="Filtrar por estado"></div>
+        <div class="tabla-envoltura">
+          <table class="tabla">
+            <thead><tr><th>Pedido</th><th>Cliente</th><th>Platillos</th><th class="num">Total</th><th>Entrega</th><th>Estado</th></tr></thead>
+            <tbody id="tablaPedidos"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="vista" id="vista-menu" aria-labelledby="tMenu" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tMenu">Menú</h1>
+          <button class="boton" type="button" id="nuevoPlato">Nuevo platillo</button>
+        </div>
+        <div class="filtros-admin">
+          <label class="buscador">
+            <span class="visualmente-oculto">Buscar platillo</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+            <input type="search" id="buscarPlato" placeholder="Buscar" maxlength="40">
+          </label>
+        </div>
+        <div class="tabla-envoltura">
+          <table class="tabla">
+            <thead><tr><th>Platillo</th><th>Precio</th><th>Receta</th><th>Estado</th><th><span class="visualmente-oculto">Acciones</span></th></tr></thead>
+            <tbody id="tablaPlatos"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="vista" id="vista-inventario" aria-labelledby="tInventario" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tInventario">Inventario</h1>
+        </div>
+        <p class="texto-suave">Cada pedido descuenta sus ingredientes. Si uno llega a 0, los platillos que lo usan se marcan agotados en la página; al reponerlo vuelven solos a la venta.</p>
+        <div class="tabla-envoltura">
+          <table class="tabla">
+            <thead><tr><th>Ingrediente</th><th>Existencia</th><th>Aviso en</th><th>Consumo</th><th>Pedir</th><th>Lo usan</th><th><span class="visualmente-oculto">Acciones</span></th></tr></thead>
+            <tbody id="tablaInventario"></tbody>
+          </table>
+        </div>
+        <br>
+        <form class="panel formulario" id="formIngrediente" novalidate>
+          <h2>Agregar ingrediente</h2>
+          <div class="campo-triple">
+            <div class="campo"><label for="iNombre">Nombre</label><input type="text" id="iNombre" name="nombre" maxlength="40" required></div>
+            <div class="campo"><label for="iUnidad">Unidad</label><input type="text" id="iUnidad" name="unidad" maxlength="16" placeholder="piezas"></div>
+            <div class="campo"><label for="iStock">Existencia</label><input type="number" id="iStock" name="stock" min="0" max="99999" value="0"></div>
+          </div>
+          <p class="form__error" id="errorIngrediente" role="alert"></p>
+          <button class="boton" type="submit">Agregar ingrediente</button>
+        </form>
+      </section>
+
+      <section class="vista" id="vista-patrocinadores" aria-labelledby="tPatrocinadores" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tPatrocinadores">Patrocinadores</h1>
+        </div>
+        <div class="paneles">
+          <form class="panel formulario" id="formPatrocinador" novalidate>
+            <h2>Agregar marca</h2>
+            <div class="campo"><label for="mSimbolo">Marca</label><select id="mSimbolo" name="simbolo"></select></div>
+            <div class="campo"><label for="mUrl">Enlace <small>(opcional)</small></label><input type="url" id="mUrl" name="url" maxlength="200" placeholder="https://"></div>
+            <div class="campo"><span>Vista previa</span><div class="vista-logo" id="mVista"></div></div>
+            <p class="form__error" id="errorPatrocinador" role="alert"></p>
+            <button class="boton" type="submit">Agregar al carrusel</button>
+          </form>
+          <div class="panel">
+            <div class="panel__cab"><h2>En la página</h2><small id="nPatrocinadores"></small></div>
+            <div class="tabla-envoltura">
+              <table class="tabla">
+                <thead><tr><th>Marca</th><th>Estado</th><th><span class="visualmente-oculto">Acciones</span></th></tr></thead>
+                <tbody id="tablaPatrocinadores"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="vista" id="vista-automatizaciones" aria-labelledby="tAuto" hidden>
+        <div class="escritorio__cab">
+          <h1 id="tAuto">Automatizaciones</h1>
+        </div>
+        <form class="reglas" id="formConfig" novalidate>
+          <div class="regla"><div><h3>Pedidos por turno</h3><p>Máximo de pedidos por turno de 15 minutos. Los turnos llenos se bloquean y los pedidos «lo antes posible» pasan solos al siguiente turno libre.</p></div><input type="number" name="capacidad_franja" min="1" max="100" aria-label="Pedidos por turno"></div>
+          <div class="regla"><div><h3>Tiempo base de preparación</h3><p>Minutos que tarda un pedido con la cocina vacía.</p></div><input type="number" name="prep_base" min="1" max="90" aria-label="Minutos base"></div>
+          <div class="regla"><div><h3>Minutos extra por pedido en cola</h3><p>La espera que ve el cliente suma estos minutos por cada ronda de pedidos pendientes.</p></div><input type="number" name="min_por_pedido" min="0" max="30" aria-label="Minutos por pedido"></div>
+          <div class="regla"><div><h3>Cocineros en turno</h3><p>Pedidos que la cocina prepara al mismo tiempo.</p></div><input type="number" name="cocineros" min="1" max="20" aria-label="Cocineros"></div>
+          <div class="regla"><div><h3>Tiempo de entrega a domicilio</h3><p>Minutos que se suman a la hora estimada en pedidos a domicilio.</p></div><input type="number" name="tiempo_entrega" min="0" max="120" aria-label="Minutos de entrega"></div>
+          <div class="regla"><div><h3>Costo de envío</h3><p>Se cobra en pedidos a domicilio por debajo del monto de envío gratis.</p></div><input type="number" name="costo_envio" min="0" max="100" step="0.5" aria-label="Costo de envío"></div>
+          <div class="regla"><div><h3>Envío gratis desde</h3><p>El carrito le muestra al cliente cuánto le falta para no pagar envío.</p></div><input type="number" name="envio_gratis_desde" min="0" max="1000" aria-label="Envío gratis desde"></div>
+          <div class="regla"><div><h3>Pedido mínimo a domicilio</h3><p>Por debajo de este monto solo se permite recoger en tienda.</p></div><input type="number" name="minimo_domicilio" min="0" max="1000" aria-label="Pedido mínimo"></div>
+          <div class="regla"><div><h3>Aviso de ingrediente bajo</h3><p>Existencia a partir de la cual un ingrediente nuevo aparece en las alertas.</p></div><input type="number" name="umbral_ingrediente" min="0" max="1000" aria-label="Umbral de ingrediente"></div>
+          <div class="regla"><div><h3>Etiqueta «Nuevo»</h3><p>Días que un platillo recién creado lleva la etiqueta en la página.</p></div><input type="number" name="dias_nuevo" min="0" max="120" aria-label="Días de etiqueta Nuevo"></div>
+          <div class="panel">
+            <h2>Horario de la cocina</h2>
+            <p class="texto-suave">Se muestra en la página y controla los turnos. Fuera de horario solo se aceptan pedidos programados.</p>
+            <div class="horario-dias" id="horario"></div>
+          </div>
+          <p class="form__error" id="errorConfig" role="alert"></p>
+          <button class="boton" type="submit">Guardar cambios</button>
+        </form>
+        <br>
+        <div class="panel">
+          <h2>Siempre activas</h2>
+          <ul class="lista-simple">
+            <li>La espera que ve el cliente se calcula en vivo con los pedidos que hay en cocina.</li>
+            <li>Cada pedido descuenta sus ingredientes; si uno se acaba, los platillos que lo usan se marcan agotados.</li>
+            <li>Cancelar un pedido devuelve sus ingredientes al inventario.</li>
+            <li>Las promociones por horario se activan y se apagan solas.</li>
+            <li>Los pedidos atrasados se marcan en rojo en la pantalla de cocina y en el resumen.</li>
+            <li>El cliente sigue su pedido en vivo con su número y un código privado.</li>
+          </ul>
+        </div>
+        <br>
+        <div class="panel" id="panelDemo">
+          <h2>Datos de ejemplo</h2>
+          <p class="texto-suave">Borra los pedidos de ejemplo. El menú, el inventario y los patrocinadores no se tocan.</p>
+          <button class="btn-mini btn-mini--peligro" type="button" id="borrarDemo">Borrar pedidos de ejemplo</button>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <dialog class="modal editor" id="dlgEditor" aria-labelledby="editorTitulo">
+    <button class="cerrar" type="button" data-cerrar aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <form class="formulario" id="formPlato" novalidate>
+      <h2 class="editor__titulo" id="editorTitulo">Nuevo platillo</h2>
+      <input type="hidden" name="id">
+      <div class="editor__vista">
+        <img class="miniatura" id="editorMiniatura" src="../img/menu/la-chispa.webp" alt="" width="96" height="72">
+        <div class="campo campo--flex">
+          <label for="eFoto">Foto de la biblioteca</label>
+          <select id="eFoto" name="foto"></select>
+        </div>
+      </div>
+      <div class="campo">
+        <label for="eImagen">O sube una foto propia <small>(JPG, PNG o WEBP, máx. 3 MB)</small></label>
+        <input type="file" id="eImagen" name="imagen" accept="image/jpeg,image/png,image/webp">
+      </div>
+      <div class="campo"><label for="eNombre">Nombre</label><input type="text" id="eNombre" name="nombre" maxlength="60" required></div>
+      <div class="campo-triple">
+        <div class="campo"><label for="eCategoria">Categoría</label><select id="eCategoria" name="categoria"></select></div>
+        <div class="campo"><label for="ePrecio">Precio</label><input type="number" id="ePrecio" name="precio" min="0.1" max="1000" step="0.1" required></div>
+        <div class="campo"><label for="eKcal">Calorías</label><input type="number" id="eKcal" name="kcal" min="0" max="5000" step="10"></div>
+      </div>
+      <div class="campo"><label for="eDescripcion">Descripción</label><textarea id="eDescripcion" name="descripcion" maxlength="200"></textarea></div>
+      <p class="separador">Receta · ingredientes por porción</p>
+      <div class="receta" id="editorReceta"></div>
+      <p class="separador">Promoción por horario (opcional)</p>
+      <div class="campo-triple">
+        <div class="campo"><label for="ePromoNombre">Nombre</label><input type="text" id="ePromoNombre" name="promo_nombre" maxlength="24" placeholder="Hora Chispa"></div>
+        <div class="campo"><label for="ePromoPrecio">Precio promo</label><input type="number" id="ePromoPrecio" name="promo_precio" min="0" max="1000" step="0.1"></div>
+        <div class="campo-doble">
+          <div class="campo"><label for="ePromoDesde">Desde</label><input type="time" id="ePromoDesde" name="promo_desde" value="15:00"></div>
+          <div class="campo"><label for="ePromoHasta">Hasta</label><input type="time" id="ePromoHasta" name="promo_hasta" value="18:00"></div>
+        </div>
+      </div>
+      <div class="dias" id="editorDias" role="group" aria-label="Días de la promoción"></div>
+      <label class="consentimiento"><input type="checkbox" name="favorito" value="1"><span>Mostrar en «Favoritos de la casa»</span></label>
+      <label class="consentimiento"><input type="checkbox" name="picante" value="1"><span>Marcar como picante</span></label>
+      <label class="consentimiento"><input type="checkbox" name="activo" value="1" checked><span>Visible en la página</span></label>
+      <p class="form__error" id="errorPlato" role="alert"></p>
+      <button class="boton boton--ancho" type="submit" id="guardarPlato">Guardar platillo</button>
+      <button class="btn-mini btn-mini--peligro" type="button" id="eliminarPlato" hidden>Eliminar platillo</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="../js/menu.js" defer></script>
+  <script src="../js/admin.js" defer></script>
+</body>
+</html>

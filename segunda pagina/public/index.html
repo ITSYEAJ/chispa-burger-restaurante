@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chispa Burger: smash burgers al carbón, pollo crujiente y papas cortadas a mano. Ordena en línea, elige tu hora y recoge sin fila.">
+  <meta name="theme-color" content="#191919">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Chispa Burger · Smash burgers al carbón</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="../img/sitio/heroe.webp">
+
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="pagina-chispa">
+
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="encabezado" id="encabezado">
+    <nav class="barra" aria-label="Navegación principal">
+      <a class="marca" href="#inicio" aria-label="Chispa Burger, inicio">
+        <canvas class="logo-canvas" id="logoCanvas" width="56" height="56" role="img" aria-label="Logotipo de Chispa Burger">C</canvas>
+        <span class="marca__nombre">Chispa<br>Burger</span>
+      </a>
+
+      <ul class="menu" id="menu">
+        <li><a href="#carta">Menú</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#seguimiento">Mi pedido</a></li>
+      </ul>
+
+      <div class="barra__acciones">
+        <a class="boton boton--chico ocultar-movil" href="#carta">Ordenar</a>
+        <button class="bolsa-btn" type="button" id="abrirBolsa" aria-haspopup="dialog">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="visualmente-oculto">Ver tu pedido,</span>
+          <span class="bolsa-btn__num" id="bolsaNum">0</span>
+          <span class="visualmente-oculto">productos</span>
+        </button>
+        <button class="barra__toggle" type="button" aria-expanded="false" aria-controls="menu">
+          <span class="barra__toggle-linea"></span>
+          <span class="barra__toggle-linea"></span>
+          <span class="visualmente-oculto">Abrir menú de navegación</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <section class="heroe" id="inicio" aria-labelledby="tituloHeroe">
+      <img class="heroe__foto" src="../img/sitio/heroe.webp" alt="" width="1920" height="1100" fetchpriority="high">
+      <div class="contenedor heroe__contenido">
+        <h1 id="tituloHeroe">Smash burgers<br>al carbón.</h1>
+        <p class="heroe__texto">Pide en línea, elige a qué hora pasas y recoge sin hacer fila. Carne molida cada mañana y pan horneado en casa.</p>
+        <div class="heroe__acciones">
+          <a class="boton boton--grande" href="#carta">
+            Ordenar ahora
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="boton boton--grande boton--contorno" href="#seguimiento">Seguir mi pedido</a>
+        </div>
+        <dl class="heroe__datos">
+          <div><dt>Espera ahora</dt><dd id="datoEspera">— min</dd></div>
+          <div><dt>Hoy</dt><dd id="datoHorario">11:00–23:00</dd></div>
+          <div><dt>Entrega</dt><dd>hasta 2 km</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="seccion" id="favoritos" aria-labelledby="tituloFavoritos">
+      <div class="contenedor">
+        <div class="cabecera">
+          <div>
+            <p class="etiqueta">Los más pedidos</p>
+            <h2 class="titulo" id="tituloFavoritos">Favoritos de la casa</h2>
+          </div>
+          <a class="enlace-flecha" href="#carta">Ver todo el menú</a>
+        </div>
+        <div class="favoritos" id="favoritosLista"></div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde" id="carta" aria-labelledby="tituloCarta">
+      <div class="contenedor">
+        <div class="cabecera">
+          <div>
+            <p class="etiqueta">Hecho al momento</p>
+            <h2 class="titulo" id="tituloCarta">Menú</h2>
+          </div>
+          <p class="cabecera__conteo" id="conteo" aria-live="polite"></p>
+        </div>
+
+        <div class="herramientas">
+          <div class="pestanas" id="pestanas" role="tablist" aria-label="Categorías del menú"></div>
+          <label class="buscador">
+            <span class="visualmente-oculto">Buscar en el menú</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+            <input type="search" id="buscar" placeholder="Buscar platillo" maxlength="40" autocomplete="off">
+          </label>
+        </div>
+
+        <div class="platos" id="platos" role="tabpanel" aria-labelledby="tituloCarta"></div>
+
+        <div class="vacio" id="vacio" hidden>
+          <p>No encontramos nada con esa búsqueda.</p>
+          <button class="boton boton--contorno" type="button" id="limpiarFiltros">Ver todo el menú</button>
+        </div>
+
+        <div class="ver-mas" id="verMas" hidden>
+          <p class="ver-mas__texto" id="verMasTexto" aria-live="polite"></p>
+          <div class="ver-mas__barra" aria-hidden="true"><span id="verMasBarra"></span></div>
+          <button class="boton-mas" type="button" id="botonVerMas">
+            <span id="botonVerMasTexto">Ver más</span>
+            <span class="boton-mas__icono" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo" id="promo" aria-labelledby="tituloPromo">
+      <div class="contenedor promo__caja">
+        <img class="promo__foto" src="../img/sitio/promo.webp" alt="Papas fritas cortadas a mano en un plato" width="1200" height="900" loading="lazy">
+        <div class="promo__texto">
+          <p class="etiqueta etiqueta--acento" id="promoEstado">Lunes a viernes · 15:00 a 18:00</p>
+          <h2 class="titulo" id="tituloPromo">Hora Chispa: papas clásicas a $2.40</h2>
+          <p>Todas las tardes entre semana bajamos el precio de las papas. El descuento se aplica solo en tu pedido, sin cupones.</p>
+          <button class="boton" type="button" id="promoBoton">Agregar papas</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="como" aria-labelledby="tituloComo">
+      <div class="contenedor como">
+        <div class="como__texto">
+          <p class="etiqueta">Sin filas</p>
+          <h2 class="titulo" id="tituloComo">A la hora de la comida llegaban 40 pedidos juntos. Ahora cada uno tiene su turno.</h2>
+          <p>La cocina acepta un número fijo de pedidos cada 15 minutos. Cuando un turno se llena, el sistema te ofrece el siguiente. Así la comida sale caliente y nadie espera de pie.</p>
+          <ol class="pasos">
+            <li>
+              <span class="pasos__icono" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></span>
+              <div><h3>Eliges tu turno</h3><p>Ves los horarios con lugar y la espera real de la cocina.</p></div>
+            </li>
+            <li>
+              <span class="pasos__icono" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-8z"/></svg></span>
+              <div><h3>Cocinamos a tiempo</h3><p>Tu pedido entra a la pantalla de cocina con su hora de salida.</p></div>
+            </li>
+            <li>
+              <span class="pasos__icono" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/></svg></span>
+              <div><h3>Recoges y listo</h3><p>Sigues el estado en vivo y pasas directo al mostrador de pedidos en línea.</p></div>
+            </li>
+          </ol>
+        </div>
+        <figure class="como__foto">
+          <img src="../img/sitio/mostrador.webp" alt="Mostrador de pedidos de un restaurante de comida rápida" width="1200" height="900" loading="lazy">
+          <figcaption class="insignia-flotante">
+            <strong id="cifraEspera">— min</strong>
+            <span>espera promedio ahora</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde" id="nosotros" aria-labelledby="tituloNosotros">
+      <div class="contenedor nosotros">
+        <img class="nosotros__foto" src="../img/sitio/parrilla.webp" alt="Carne de hamburguesa sobre la parrilla con fuego" width="1100" height="1300" loading="lazy">
+        <div class="nosotros__texto">
+          <p class="etiqueta">Nuestra historia</p>
+          <h2 class="titulo" id="tituloNosotros">Empezamos con una plancha y una idea: la carne se aplasta, no se congela.</h2>
+          <p>Chispa Burger abrió en 2021 en una esquina del centro con tres personas y una parrilla de carbón. Molemos la carne cada mañana, horneamos el pan en casa y cortamos las papas a mano.</p>
+          <p>Hoy somos doce en el equipo y seguimos haciendo lo mismo: pocas cosas, bien hechas y rápido.</p>
+          <dl class="numeros">
+            <div><dt>Carne molida</dt><dd>cada mañana</dd></div>
+            <div><dt>Pan</dt><dd>horneado en casa</dd></div>
+            <div><dt>Papas</dt><dd>cortadas a mano</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde" id="resenas" aria-labelledby="tituloResenas">
+      <div class="contenedor">
+        <div class="cabecera">
+          <div>
+            <h2 class="titulo" id="tituloResenas">Clientes de todos los días</h2>
+          </div>
+        </div>
+        <div class="resenas">
+          <figure class="resena">
+            <div class="estrellas" role="img" aria-label="5 de 5 estrellas"><span></span><span></span><span></span><span></span><span></span></div>
+            <blockquote>Programo mi pedido a la 1:30, salgo de la oficina y ya está en el mostrador. La Doble Chispa no falla.</blockquote>
+            <figcaption><strong>Mariana</strong> · pide los martes</figcaption>
+          </figure>
+          <figure class="resena">
+            <div class="estrellas" role="img" aria-label="5 de 5 estrellas"><span></span><span></span><span></span><span></span><span></span></div>
+            <blockquote>Las papas son de verdad cortadas a mano. En Hora Chispa pido doble porción.</blockquote>
+            <figcaption><strong>Diego</strong> · cliente desde 2022</figcaption>
+          </figure>
+          <figure class="resena">
+            <div class="estrellas" role="img" aria-label="4 de 5 estrellas"><span></span><span></span><span></span><span></span><span class="vacia"></span></div>
+            <blockquote>El seguimiento del pedido es muy útil: sé exactamente cuándo salir de casa.</blockquote>
+            <figcaption><strong>Lucía</strong> · pide a domicilio</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde marcas" id="patrocinadores" aria-labelledby="tituloMarcas">
+      <div class="contenedor">
+        <h2 class="titulo titulo--chico" id="tituloMarcas">Patrocinadores</h2>
+      </div>
+      <div class="carrusel" id="carrusel">
+        <div class="carrusel__pista" id="carruselPista"></div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde" id="ubicacion" aria-labelledby="tituloUbicacion">
+      <div class="contenedor ubicacion">
+        <div class="ubicacion__foto">
+          <img src="../img/sitio/local.webp" alt="Mesa junto a la ventana con hamburguesa, papas y refresco" width="1600" height="1000" loading="lazy">
+        </div>
+        <div class="ubicacion__datos">
+          <p class="etiqueta">Visítanos</p>
+          <h2 class="titulo" id="tituloUbicacion">Av. de los Álamos 118, Centro</h2>
+          <p>Junto al parque central. Hay estacionamiento para bicicletas y un mostrador exclusivo para pedidos en línea.</p>
+          <ul class="horario" id="horarioLista">
+            <li><span>Lunes a sábado</span><span>11:00–23:00</span></li>
+            <li><span>Domingo</span><span>12:00–22:00</span></li>
+          </ul>
+          <div class="ubicacion__acciones">
+            <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+de+los+%C3%81lamos+118+Centro" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+            <a class="boton boton--contorno" href="tel:+15550142020">Llamar · 555 014 2020</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--borde" id="seguimiento" aria-labelledby="tituloSeguimiento">
+      <div class="contenedor seguimiento">
+        <div>
+          <p class="etiqueta">Mi pedido</p>
+          <h2 class="titulo" id="tituloSeguimiento">¿Dónde va tu pedido?</h2>
+          <p class="texto-suave">Escribe el número y el código que recibiste al confirmar. Si pediste desde este dispositivo, ya lo cargamos por ti.</p>
+        </div>
+        <div class="rastreo">
+          <form id="formRastreo" novalidate>
+            <div class="campo">
+              <label for="rNumero">Número de pedido</label>
+              <input type="text" id="rNumero" name="numero" maxlength="8" placeholder="CH-1042" autocomplete="off" required>
+            </div>
+            <div class="campo">
+              <label for="rCodigo">Código</label>
+              <input type="text" id="rCodigo" name="codigo" maxlength="6" placeholder="A1B2C3" autocomplete="off" required>
+            </div>
+            <button class="boton" type="submit">Buscar</button>
+          </form>
+          <p class="form__error" id="errorRastreo" role="alert"></p>
+          <div id="resultadoRastreo" hidden>
+            <div class="rastreo__estado">
+              <h3 id="rastreoTitulo"></h3>
+              <p id="rastreoDetalle"></p>
+            </div>
+            <ol class="linea-tiempo" id="rastreoLinea"></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__rejilla">
+      <div class="pie__marca">
+        <p class="pie__nombre">Chispa Burger</p>
+        <p>Smash burgers al carbón, pollo crujiente y papas cortadas a mano.</p>
+        <div class="redes">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-red="instagram"></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-red="facebook"></a>
+          <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok" data-red="tiktok"></a>
+        </div>
+      </div>
+      <div>
+        <h3>Explora</h3>
+        <ul class="pie__lista">
+          <li><a href="#carta">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#seguimiento">Seguir mi pedido</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ubicación</h3>
+        <address>Av. de los Álamos 118<br>Colonia Centro</address>
+      </div>
+      <div>
+        <h3>Horario</h3>
+        <ul class="pie__lista" id="pieHorario">
+          <li>Lun a sáb · 11:00–23:00</li>
+          <li>Domingo · 12:00–22:00</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul class="pie__lista">
+          <li><a href="tel:+15550142020">555 014 2020</a></li>
+          <li><a href="mailto:hola@chispaburger.shop">hola@chispaburger.shop</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor pie__legal">
+      <p>© <span id="anio">2026</span> Chispa Burger. Pago en efectivo o tarjeta al recibir.</p>
+      <p>Fotografías: <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
+    </div>
+  </footer>
+
+  <a class="barra-pedido" id="barraPedido" href="#" hidden>
+    <span><span id="barraCantidad">0</span> en tu pedido</span>
+    <strong id="barraTotal">$0.00</strong>
+  </a>
+
+  <dialog class="modal" id="dlgPlato" aria-labelledby="fichaNombre">
+    <form class="ficha" id="formPlato" novalidate>
+      <div class="ficha__foto" id="fichaFoto">
+        <button class="cerrar" type="button" data-cerrar aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="ficha__cuerpo">
+        <p class="etiqueta" id="fichaCategoria"></p>
+        <h2 class="ficha__nombre" id="fichaNombre"></h2>
+        <p class="ficha__desc" id="fichaDesc"></p>
+        <p class="ficha__meta" id="fichaMeta"></p>
+        <fieldset class="grupo-opciones" id="fichaExtras"><legend>Agrega</legend></fieldset>
+        <fieldset class="grupo-opciones" id="fichaQuitarGrupo">
+          <legend>Sin</legend>
+          <div class="quitar" id="fichaQuitar"></div>
+        </fieldset>
+        <div class="campo">
+          <label for="fichaNota">Indicaciones <small>(opcional)</small></label>
+          <input type="text" id="fichaNota" maxlength="80" placeholder="Término de la carne, alergias…">
+        </div>
+      </div>
+      <div class="ficha__pie">
+        <div class="cantidad">
+          <button type="button" id="fichaMenos" aria-label="Quitar una unidad">−</button>
+          <span id="fichaCantidad" aria-live="polite">1</span>
+          <button type="button" id="fichaMas" aria-label="Agregar una unidad">+</button>
+        </div>
+        <button class="boton" type="submit" id="fichaAgregar">Agregar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="cajon" id="dlgBolsa" aria-labelledby="bolsaTitulo">
+    <div class="cajon__cab">
+      <h2 id="bolsaTitulo">Tu pedido <span id="bolsaCuenta"></span></h2>
+      <button class="cerrar cerrar--estatico" type="button" data-cerrar aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <div class="cajon__paso" id="pasoBolsa">
+      <div class="aviso-envio" id="avisoEnvio">
+        <p id="envioTexto"></p>
+        <div class="barra-progreso"><span id="envioBarra"></span></div>
+      </div>
+      <ul class="lineas" id="bolsaLineas"></ul>
+      <div class="vacio vacio--bolsa" id="bolsaVacia">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <p>Tu pedido está vacío.</p>
+        <button class="boton boton--contorno" type="button" data-cerrar-ir="#carta">Ver el menú</button>
+      </div>
+      <div class="cajon__pie" id="bolsaPie">
+        <dl class="totales">
+          <div><dt>Subtotal</dt><dd id="bolsaSubtotal">$0.00</dd></div>
+          <div><dt>Envío</dt><dd id="bolsaEnvio">—</dd></div>
+          <div class="totales__total"><dt>Total</dt><dd id="bolsaTotal">$0.00</dd></div>
+        </dl>
+        <button class="boton boton--ancho" type="button" id="irPagar">Continuar</button>
+      </div>
+    </div>
+
+    <form class="cajon__paso formulario" id="pasoPago" novalidate hidden>
+      <button class="enlace-volver" type="button" id="volverBolsa">← Volver al pedido</button>
+
+      <fieldset class="segmentado">
+        <legend>¿Cómo lo quieres?</legend>
+        <label><input type="radio" name="tipo" value="recoger" checked><span>Recoger<small>sin costo</small></span></label>
+        <label><input type="radio" name="tipo" value="domicilio"><span>A domicilio<small id="tipoEnvioTexto">+ envío</small></span></label>
+      </fieldset>
+
+      <div class="campo" id="campoDireccion" hidden>
+        <label for="pDireccion">Dirección de entrega</label>
+        <input type="text" id="pDireccion" name="direccion" maxlength="160" autocomplete="street-address">
+      </div>
+
+      <fieldset class="segmentado">
+        <legend>¿Para cuándo?</legend>
+        <label><input type="radio" name="cuando" value="ahora" checked><span>Lo antes posible<small id="cuandoAhoraTexto">~— min</small></span></label>
+        <label><input type="radio" name="cuando" value="programar"><span>Programar<small>elige un turno</small></span></label>
+      </fieldset>
+
+      <div class="campo" id="campoFranja" hidden>
+        <label for="pFranja">Turno</label>
+        <select id="pFranja" name="franja"></select>
+      </div>
+
+      <div class="campo-doble">
+        <div class="campo">
+          <label for="pNombre">Nombre</label>
+          <input type="text" id="pNombre" name="nombre" maxlength="60" autocomplete="name" required>
+        </div>
+        <div class="campo">
+          <label for="pTelefono">Teléfono</label>
+          <input type="tel" id="pTelefono" name="telefono" maxlength="20" autocomplete="tel" required>
+        </div>
+      </div>
+
+      <fieldset class="segmentado">
+        <legend>Pago al recibir</legend>
+        <label><input type="radio" name="pago" value="efectivo" checked><span>Efectivo</span></label>
+        <label><input type="radio" name="pago" value="tarjeta"><span>Tarjeta</span></label>
+      </fieldset>
+
+      <div class="campo">
+        <label for="pNotas">Notas <small>(opcional)</small></label>
+        <input type="text" id="pNotas" name="notas" maxlength="160">
+      </div>
+
+      <div class="trampa" aria-hidden="true">
+        <label for="pWeb">No llenar</label>
+        <input type="text" id="pWeb" name="sitio_web" tabindex="-1" autocomplete="off">
+      </div>
+
+      <p class="form__error" id="errorPago" role="alert"></p>
+      <button class="boton boton--ancho" type="submit" id="botonPagar">Confirmar pedido</button>
+    </form>
+
+    <div class="cajon__paso confirmacion" id="pasoListo" hidden>
+      <svg class="confirmacion__icono" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22"/><path d="M14 25l7 7 13-15"/></svg>
+      <p class="etiqueta">Pedido confirmado</p>
+      <p class="confirmacion__numero" id="listoNumero"></p>
+      <span class="confirmacion__codigo" id="listoCodigo"></span>
+      <p id="listoTexto"></p>
+      <ol class="linea-tiempo" id="listoLinea"></ol>
+      <button class="boton boton--ancho" type="button" data-cerrar>Listo</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="../js/menu.js" defer></script>
+  <script src="../js/pagina2.js" defer></script>
+</body>
+</html>

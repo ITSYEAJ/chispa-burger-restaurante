@@ -1,0 +1,106 @@
+[
+    {
+        "id": "pt_6253e1406b",
+        "nombre": "Coca-Cola",
+        "simbolo": "cocacola",
+        "url": "",
+        "activo": true,
+        "orden": 1
+    },
+    {
+        "id": "pt_b0c3b25ec9",
+        "nombre": "Uber Eats",
+        "simbolo": "ubereats",
+        "url": "",
+        "activo": true,
+        "orden": 2
+    },
+    {
+        "id": "pt_184b3f811e",
+        "nombre": "Pepsi",
+        "simbolo": "pepsi",
+        "url": "",
+        "activo": true,
+        "orden": 3
+    },
+    {
+        "id": "pt_776ad0ef27",
+        "nombre": "Red Bull",
+        "simbolo": "redbull",
+        "url": "",
+        "activo": true,
+        "orden": 4
+    },
+    {
+        "id": "pt_967f11ca21",
+        "nombre": "DoorDash",
+        "simbolo": "doordash",
+        "url": "",
+        "activo": true,
+        "orden": 5
+    },
+    {
+        "id": "pt_589254645e",
+        "nombre": "Mercado Pago",
+        "simbolo": "mercadopago",
+        "url": "",
+        "activo": true,
+        "orden": 6
+    },
+    {
+        "id": "pt_da431d8002",
+        "nombre": "Glovo",
+        "simbolo": "glovo",
+        "url": "",
+        "activo": true,
+        "orden": 7
+    },
+    {
+        "id": "pt_63ce5df4a6",
+        "nombre": "Visa",
+        "simbolo": "visa",
+        "url": "",
+        "activo": true,
+        "orden": 8
+    },
+    {
+        "id": "pt_69f8efd7b2",
+        "nombre": "Deliveroo",
+        "simbolo": "deliveroo",
+        "url": "",
+        "activo": true,
+        "orden": 9
+    },
+    {
+        "id": "pt_3534fdb146",
+        "nombre": "Just Eat",
+        "simbolo": "justeat",
+        "url": "",
+        "activo": true,
+        "orden": 10
+    },
+    {
+        "id": "pt_8a2fa92929",
+        "nombre": "Mastercard",
+        "simbolo": "mastercard",
+        "url": "",
+        "activo": true,
+        "orden": 11
+    },
+    {
+        "id": "pt_b9d3a99c4f",
+        "nombre": "iFood",
+        "simbolo": "ifood",
+        "url": "",
+        "activo": true,
+        "orden": 12
+    },
+    {
+        "id": "pt_4f898566cb",
+        "nombre": "Grubhub",
+        "simbolo": "grubhub",
+        "url": "",
+        "activo": true,
+        "orden": 13
+    }
+]
